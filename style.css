@@ -35,6 +35,10 @@ body {
 	color: #5a6772;
 }
 
+.text-color-tertiary {
+	color: #ABA6BB;
+}
+
 .btn-purple {
 	background-color: #6552ff;
 }
@@ -55,6 +59,10 @@ body {
 .navbar-nav .active a {
 	font-weight: 500;
 	color: #150544 !important;
+}
+
+.nav-item a {
+	color: #5a6772;
 }
 
 .btn-sign-up {
