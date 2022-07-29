@@ -1,0 +1,173 @@
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+/* GLOBAL  */
+.fs-18 {
+	font-size: 18px;
+}
+
+.fs-36 {
+	font-size: 36px;
+}
+
+.fs-48 {
+	font-size: 48px;
+}
+
+.fs-52 {
+	font-size: 52px;
+}
+
+.fw-medium {
+	font-weight: 500;
+}
+
+.fw-extrabold {
+	font-weight: 800;
+}
+
+.text-color-primary {
+	color: #150544;
+}
+
+.text-color-secondary {
+	color: #5a6772;
+}
+
+.btn-purple {
+	background-color: #6552ff;
+}
+
+.btn-purple:hover {
+	background-color: #4a34f0 !important;
+	transition: all;
+	transition-duration: 300ms;
+}
+
+/* NAVBAR */
+.navbar-brand {
+	color: #150544;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.navbar-nav .active a {
+	font-weight: 500;
+	color: #150544 !important;
+}
+
+.btn-sign-up {
+	background-color: #150544;
+}
+
+.btn-sign-up:hover {
+	background-color: #13043f !important;
+	transition: all;
+	transition-duration: 300ms;
+}
+/* END NAVBAR */
+
+/* FEATURE  */
+.feature {
+	background: url(assets/background/Union.svg);
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+	margin-top: 100px;
+}
+
+.features {
+	margin-top: 70px;
+}
+
+.icon-bg {
+	width: 70px;
+	height: 70px;
+	border-radius: 26px;
+	background-color: #614ef5;
+}
+/* END FEATURE  */
+
+/* START PACKAGE  */
+.package {
+	margin-top: 150px;
+}
+
+.price {
+	margin-top: 70px;
+}
+
+.price-card {
+	max-width: 320px;
+}
+
+.border-darker {
+	border: 2px solid #150544;
+}
+
+.bg-darker {
+	background-color: #150544;
+}
+
+.bg-bluelight {
+	z-index: -10;
+	margin-top: -450px;
+	background-color: #e7f6ff;
+	height: 520px;
+}
+
+a.text-color-primary:hover {
+  color: #0e0429 !important;
+  transition: all;
+  transition-duration: 300ms;
+}
+/* END PACKAGE  */
+
+/* START STORY  */
+.story {
+	background-color: #150544;
+}
+
+.bg-ornament {
+	background: url(assets/background/Union2.svg);
+	background-size: cover;
+	background-position: center;
+	min-height: 450px;
+}
+
+.quote {
+	left: 5%;
+}
+
+@media (min-width: 576px) {
+	.quote {
+		left: 10%;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.quote {
+		left: 15%;
+	}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.quote {
+		left: 20%;
+	}
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.quote {
+		left: 16%;
+	}
+}
+
+.text-decoration-underline-purple {
+	text-decoration: underline #6552ff;
+}
+/* End STORY  */
